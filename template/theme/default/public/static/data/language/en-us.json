@@ -1,0 +1,16 @@
+{
+    "public": {
+        "site": {
+            "title": "hello world!"
+        }
+    },
+    "page": {
+        "home": {
+            "index": {
+                "title": "hello world!",
+                "description": "See that the proof frame has been installed!"
+            }
+        },
+        "page": {}
+    }
+}

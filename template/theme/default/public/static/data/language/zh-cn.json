@@ -1,0 +1,16 @@
+{
+    "public": {
+        "site": {
+            "title": "你好世界！"
+        }
+    },
+    "page": {
+        "home": {
+            "index": {
+                "title": "你好世界！",
+                "description": "看到这个证明框架已经安装完成！"
+            }
+        },
+        "page": {}
+    }
+}
