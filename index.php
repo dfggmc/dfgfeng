@@ -43,15 +43,14 @@ if (PHP_VERSION <= '5.6') {
         /**
          * 获取语言
          *
-         * @return object 返回语言数据对象
+         * @return object 返回语言数据对象否则返回false
          */
-
         function get_language()
         {
             $theme_config = get_theme_config();
             if (!$theme_config === false) {
 
-                if ($theme_config->language === true) {
+                if ($theme_config->multilingual === true) {
 
                     //检查是否存在语言cookie
                     if (isset($_COOKIE["language"])) {
@@ -70,7 +69,7 @@ if (PHP_VERSION <= '5.6') {
                         header("Refresh:0");
                     }
                 } else {
-                    return '主题未启用多语言';
+                    return false;
                 }
             }
         }
