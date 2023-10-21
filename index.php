@@ -43,8 +43,9 @@ if (PHP_VERSION <= '5.6') {
         /**
          * 获取语言
          *
-         * @return object 返回语言数据对象否则返回false
+         * @return object 返回语言数据对象
          */
+
         function get_language()
         {
             $theme_config = get_theme_config();
@@ -69,7 +70,7 @@ if (PHP_VERSION <= '5.6') {
                         header("Refresh:0");
                     }
                 } else {
-                    return false;
+                    return '主题未启用多语言';
                 }
             }
         }
