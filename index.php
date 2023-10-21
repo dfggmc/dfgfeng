@@ -9,7 +9,7 @@ if (PHP_VERSION <= '5.6') {
     //获取框架配置文件
     $config = json_decode(file_get_contents("config.json"));
 
-    if (!file_exists(__DIR__ . '/template/theme/' . $config->dfgg->theme)) {
+    if (!file_exists(__DIR__ . '/template/theme/' . $config->theme)) {
         exit('The theme file does not exist, please check confing.json.');
     } else {
 
@@ -20,7 +20,7 @@ if (PHP_VERSION <= '5.6') {
         function get_theme_url()
         {
             global $config;
-            $theme_name = $config->dfgg->theme;
+            $theme_name = $config->theme;
             return  './template/theme/' . $theme_name . '/';
         }
 
