@@ -1,7 +1,7 @@
 # dfggmc 管理团队小枫_QWQ自制PHP框架
 
 ## 优势
-1. 小巧轻便，打包成压缩包仅仅有48.0 KB!
+1. 小巧轻便，打包成压缩包仅仅有8.0 KB(标准zip压缩格式)!
    
    ![打包成.zip压缩包后](https://img.xcccx.top/imgs/2023/10/dcb3a15f5ab6f952.png)
    
