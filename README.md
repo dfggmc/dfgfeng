@@ -3,9 +3,9 @@
 ## 优势
 1. 小巧轻便，打包成压缩包仅仅有8.0 KB(标准zip压缩格式且包括默认主题)!
    
-   ![打包成.zip压缩包后](https://img.xcccx.top/imgs/2023/10/d93bf186d9d7ed99.png)
+   ![打包成7z压缩包后](https://img.xcccx.top/imgs/2023/10/d93bf186d9d7ed99.png)
    
-   ![打包成.7z压缩包后](https://img.xcccx.top/imgs/2023/10/548b316668fab1cd.png)
+   ![打包成zip压缩包后](https://img.xcccx.top/imgs/2023/10/548b316668fab1cd.png)
    
 3. 可拓展的URL路由
 4. 数据文件全部使用json文件
